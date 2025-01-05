@@ -1,4 +1,6 @@
-# InsightXfactor - Social Media Analytics Platform
+# InsightXfactor 
+
+#Social Media Analytics Platform
 
 ![Insightly Banner](https://via.placeholder.com/1200x400?text=Insightly+-+Social+Media+Analytics+Platform)
 
