@@ -29,7 +29,7 @@
 
 ---
 
-## System Architecture
+## Text Tack & Workflow
 | **Component**          | **Technology**         |
 |-------------------------|-------------------------|
 | **Frontend**            | React.js               |
