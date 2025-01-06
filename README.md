@@ -109,41 +109,12 @@ To set up **Insightly** locally, follow these steps:
 
 ---
 
-## API Documentation
-### **Endpoints**
-#### 1. Chat API
-- **Endpoint**: `POST /chat`
-- **Payload**:
-  ```json
-  {
-    "input_value": "string",
-    "requestId": "string"
-  }
-  ```
-- **Description**: Forwards user input to LangFlow and streams GPT responses.
 
-#### 2. Analytics API
-- **Endpoint**: `GET /api/posts`
-- **Query Parameters**:
-  - `startDate`: ISO date string
-  - `endDate`: ISO date string
-  - `postTypes`: Array of post types
-  - `page`: Page number (default: 1)
-  - `limit`: Items per page (default: 50)
-- **Response**:
-  ```json
-  {
-    "posts": [ ... ],
-    "totalCount": 100
-  }
-  ```
-
----
 
 ## Features Overview
 
 | **Feature**                | **Description**                                           |
-|----------------------------|-----------------------------------------------------------|
+|----------------------------|----------------------------------------------------------|
 | Real-time Analytics        | Analyze engagement metrics in real time                  |
 | GPT Insights               | Generate AI-powered recommendations and reports          |
 | Custom Metric Tracking     | Define and track custom social media KPIs                |
